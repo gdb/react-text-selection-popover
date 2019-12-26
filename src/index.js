@@ -34,8 +34,7 @@ class Popover extends Component {
       selectionPosition != null &&
       selectionRef != null &&
       browserSelection != null &&
-      selectionRef.contains(browserSelection.anchorNode) === true &&
-      selectionRef.contains(browserSelection.focusNode) === true
+      selectionRef.contains(browserSelection.anchorNode) === true
     ) {
       if (browserSelection.isCollapsed === false) {
         onTextSelect && onTextSelect();
